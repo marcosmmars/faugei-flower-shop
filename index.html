@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="color-[#1E1E1E]">
+  <body>
     <header>
       <nav
         class="max-w-[1140px] h-[71px] mx-auto flex justify-between items-center mt-[30px] max-sm:w-[361px] max-sm:h-[38px] max-sm:mt-10"
@@ -376,10 +376,10 @@
         </div>
       </section>
       <section
-        class="bg-[url(./assets/news-letter-bg.png)] bg-no-repeat bg-cover bg-center h-[533px] w-[1440px] max-sm:h-[275px] max-sm:w-[393px] mt-[120px] max-sm:mt-[40px] mx-auto"
+        class="bg-[url(./assets/news-letter-bg.png)] bg-no-repeat max-sm:bg-no-repeat bg-cover max-sm:bg-cover bg-center max-sm:bg-center h-[533px] w-[1440px] max-sm:h-[275px] max-sm:w-full mt-[120px] max-sm:mt-[40px] mx-auto"
       >
         <div
-          class="h-[533px] w-[1440px] max-sm:h-[275px] max-sm:w-[393px] flex flex-col justify-center items-center"
+          class="h-[533px] w-[1440px] max-sm:h-[275px] max-sm:w-full flex flex-col justify-center items-center"
         >
           <h3
             class="font-bold font-[Noto-Serif] text-[50px] max-sm:text-[20px] text-white"
@@ -401,6 +401,66 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer
+      class="w-[1120px] max-sm:w-[359px] flex mx-auto gap-[110px] max-sm:gap-5 my-[50px] bg-white/50 max-sm:flex-col"
+    >
+      <div class="w-[359px]">
+        <img
+          class="w-[135px] h-[82] max-sm:w-[180px] max-sm:h-[109px]"
+          src="./assets/logo.png"
+          alt="Logo Footer"
+        />
+        <p
+          class="font-normal font-[Inter] text-[22px] max-sm:text-[16px] text-black/50 mt-4"
+        >
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop.
+        </p>
+      </div>
+      <div>
+        <ul class="w-[85px] font-[Inter] text-[14px] text-black/50">
+          <li class="mb-8"><a href="#">Home</a></li>
+          <li class="mb-8"><a href="#">About Us</a></li>
+          <li class="mb-8"><a href="#">Blog</a></li>
+          <li class="mb-8"><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="w-[128px] font-[Inter] text-[14px] text-black/50">
+          <li class="mb-8"><a href="#">Features</a></li>
+          <li class="mb-8"><a href="#">Pricing</a></li>
+          <li class="mb-8"><a href="#">Privacy Policy</a></li>
+          <li class="mb-8"><a href="#">Terms of Service</a></li>
+          <li><a href="#">Help Center</a></li>
+        </ul>
+      </div>
+      <div class="flex gap-6 w-[216px]">
+        <a href="#" target="_blank"
+          ><img
+            class="w-9 h-9"
+            src="./assets/icon-linkedin.png"
+            alt="linkedin icon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            class="w-[21px] h-[18px] mt-[9px]"
+            src="./assets/icon-twitter.png"
+            alt="x icon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            class="w-9 h-9"
+            src="./assets/icon-facebook.png"
+            alt="facebook icon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            class="w-9 h-9"
+            src="./assets/icon-youtube.png"
+            alt="youtube icon"
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
